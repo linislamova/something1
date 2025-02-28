@@ -95,18 +95,18 @@ nav ul li:hover ul {
   float: left;
   width: 50%;
   height: 300px;
-  background: blue;
+  background: gray;
 }
 
 .right {
   float: left;
   width: 50%;
   height: 300px;
-  background: steelblue;
+  background: light brown;
 }
 
 footer {
-  background: grey;
+  background: brown;
   color: white;
   padding: 1em;
   text-align: center;
