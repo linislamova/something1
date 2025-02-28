@@ -44,11 +44,11 @@ nav li a {
   padding: 21px;
   font-weight: bold;
   font-family: Consolas, monaco, monospace;
-  color: white; 
+  color: light brown; 
 }
 
 nav ul li:hover {
-  background-color: skyblue;
+  background-color: brown;
 }
 
 nav ul li ul {
@@ -71,7 +71,7 @@ nav ul li ul {
 }
 
 nav ul li ul li { 
-  background-color: skyblue;
+  background-color: brown;
   display: block; 
   color: #ffffff;
   text-shadow: 0 1px 0 #000; 
