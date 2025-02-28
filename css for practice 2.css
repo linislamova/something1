@@ -89,6 +89,8 @@ nav ul li:hover ul {
 
 .frameset {
   overflow: hidden;
+  width: 1083px;
+  margin: 0 auto;
 }
 
 .left {
