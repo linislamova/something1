@@ -96,14 +96,14 @@ nav ul li:hover ul {
 .left {
   float: left;
   width: 50%;
-  height: 300px;
+  height: 200px;
   background: gray;
 }
 
 .right {
   float: left;
   width: 50%;
-  height: 300px;
+  height: 200px;
   background: gray;
 }
 
