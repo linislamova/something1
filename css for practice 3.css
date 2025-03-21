@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box; /* Исправлено: box-sizing-border -> box-sizing */
+}
+
+.support-warning {
+    background: #ccb11c;
+    color: #000;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    opacity: 0.95;
+    padding: 3rem;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+.support-warning a {
+    color: inherit;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid--4x4 > .grid__item {
+    flex: 1 0 auto;
+}
+
+@supports(display: grid) {
+    .support-warning {
+        display: none;
+    }
+
+    .grid {
+        display: grid;
+    }
+}
+
+.grid--4x4 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, minmax(50vh, auto)); /* Исправлено: убрано лишнее minmax */
+}
+
+.align-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    padding: 3.5rem;
+    max-width: 400px;
+}
+
+.heading {
+    font-family: 'Montserrat', sans-serif; /* Исправлено: serif -> sans-serif */
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.theme-brown {
+    background: #8B4513;
+    color: #ffffff;
+}
+
+.theme-green {
+    background: #228B22;
+    color: #ffffff;
+}
+
+.theme-red {
+    background: #B22222;
+    color: #ffffff;
+}
+
+.theme-blue {
+    background: #1E90FF;
+    color: #ffffff;
+}
