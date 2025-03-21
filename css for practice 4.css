@@ -1,4 +1,4 @@
-* {
+{
     box-sizing: border-box;
 }
 
@@ -118,13 +118,13 @@ body {
 }
 
 .img-background--piano {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://github.com/linislamova/something1/blob/main/piano.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://github.com/linislamova/something1/raw/main/piano.jpg');
 }
 
 .img-background--cloud {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://github.com/linislamova/something1/blob/main/cloud.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://github.com/linislamova/something1/raw/main/cloud.jpg');
 }
 
 .img-background--cats {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://github.com/linislamova/something1/blob/main/cats.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://github.com/linislamova/something1/raw/main/cats.jpg');
 }
